@@ -25,14 +25,16 @@ Key aspects analyzed in this project include:
 
 ---
 
-## **Project Organization**
 ├── readme.md                         <- The top-level README for project details
 │
 ├── data
-│   ├── GGRM.csv           <- Historical stock data
+│   ├── ggrm_stock_data.csv           <- Historical stock data
 │
 └── notebooks   
-    ├── GGRM_Stock_Forecasting.ipynb     <- Gudang Garam Stock Price Forecasting Notebook
+    ├── 01_data_exploration.ipynb     <- Exploratory Data Analysis (EDA)
+    ├── 02_time_series_models.ipynb   <- ARIMA/SARIMA Modeling
+    ├── 03_ml_models.ipynb            <- Machine Learning Forecasting (LSTM, Random Forest, etc.)
+    └── 04_results_visualization.ipynb<- Forecast Results & Visualization
 
 
 ## **Contribution**
